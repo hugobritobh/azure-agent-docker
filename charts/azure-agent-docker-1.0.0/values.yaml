@@ -18,7 +18,7 @@ pipelines:
   pat: ""
   pool: "Default"
   agent:
-    name: "az"
+    name: "azp"
     mountDocker: false
     workDir: "_work"
 

@@ -15,4 +15,4 @@ name: azure-agent-docker
 sources:
 - https://github.com/hugobritobh/azure-agent-docker
 type: application
-version: 1.0.0
+version: 1.16.0
