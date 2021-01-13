@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: hugobritobh/azure-agent-docker
+  repository: emberstack/azure-pipelines-agent
   tag: "latest"
   pullPolicy: Always
 
