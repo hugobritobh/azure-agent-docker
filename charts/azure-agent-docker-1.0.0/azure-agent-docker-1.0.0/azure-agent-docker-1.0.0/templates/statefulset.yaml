@@ -52,7 +52,7 @@ spec:
               valueFrom:
                 fieldRef:
                   apiVersion: v1
-                  fieldPath: metadata.name
+                  value: {{ .Values.pipelines.agent.name }}
             - name: AZP_URL
               value: {{ .Values.pipelines.url | quote }}
             - name: AZP_POOL
