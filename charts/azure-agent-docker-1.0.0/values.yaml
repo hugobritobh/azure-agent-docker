@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: emberstack/azure-pipelines-agent
-  tag: ""
+  repository: hugobritobh/azure-agent-docker
+  tag: "latest"
   pullPolicy: Always
 
 imagePullSecrets: []
@@ -20,7 +20,7 @@ pipelines:
   agent:
     name: "azp"
     mountDocker: false
-    workDir: "_work"
+    workDir: "_azpAgent"
 
 serviceAccount:
   # Specifies whether a service account should be created
