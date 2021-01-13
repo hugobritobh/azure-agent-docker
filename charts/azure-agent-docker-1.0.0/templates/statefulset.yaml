@@ -49,7 +49,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: AZP_AGENT_NAME
-              value: {{ .Values.pipelines.agent.name }}
+              value: {{ .Values.pipelines.agent.name | quote }}
             - name: AZP_URL
               value: {{ .Values.pipelines.url | quote }}
             - name: AZP_POOL
