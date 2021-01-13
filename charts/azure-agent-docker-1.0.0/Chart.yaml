@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: 1.0.0
+
 description: A Helm chart for Azure Pipelines Agent
 home: https://github.com/hugobritobh/azure-agent-docker
 icon: https://github.com/hugobritobh/azureagentk8s/blob/master/azure.png?raw=true
@@ -15,4 +15,5 @@ name: azure-agent-docker
 sources:
 - https://github.com/hugobritobh/azure-agent-docker
 type: application
-version: 1.16.0
+version: 0.1.0
+appVersion: 1.16.0
